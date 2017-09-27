@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Proyecto final</string>
+    <string name="title_activity_pantallasura">Pantallasura</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registro">Registro</string>
+</resources>

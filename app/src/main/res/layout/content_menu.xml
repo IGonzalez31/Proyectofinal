@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.isidrogonzlez.proyectofinal.menu"
+    tools:showIn="@layout/Menu">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="237dp"
+        android:layout_height="32dp"
+        android:text="Nuestras Asegurodadoras"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        app:srcCompat="@mipmap/bloggif_59c1ae1469051"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/bloggif_59c1af2a7f69e"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/bloggif_59c1af640247f"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="105dp"
+        android:layout_height="49dp"
+        app:srcCompat="@mipmap/bloggif_59c1afad4d04a"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="98dp"
+        android:layout_height="46dp"
+        app:srcCompat="@mipmap/bloggif_59c1afe86b580"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="241dp"
+        android:layout_height="67dp"
+        app:srcCompat="@mipmap/bloggif_59c1b5807235e"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="370dp"
+        android:layout_height="182dp"
+        android:text="La actividad aseguradora ha estado presente en Panamá desde los comienzos de este siglo. La industria de seguros en Panamá se remonta a principios de siglo XX. Empresas de Seguros norteamericanas establecieron operaciones en el Istmo desde esa época y en 1910, la primera empresa de seguros de capital panameño fue fundada, dando inicio a una vigorosa industria. Los impulsores de esta actividad lucharon por salvaguardar su imagen y por la creación de una ley de seguros que pudiese regular y supervisar debidamente este mercado. "
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="71dp" />
+</android.support.constraint.ConstraintLayout>
